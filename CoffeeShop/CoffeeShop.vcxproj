@@ -18,6 +18,23 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Beverage.cpp" />
+    <ClCompile Include="CoffeeBase.cpp" />
+    <ClCompile Include="CoffeeType.cpp" />
+    <ClCompile Include="CondimentDecorator.cpp" />
+    <ClCompile Include="Espresso.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Beverage.h" />
+    <ClInclude Include="CoffeeBase.h" />
+    <ClInclude Include="CoffeeType.h" />
+    <ClInclude Include="CondimentDecorator.h" />
+    <ClInclude Include="Espresso.h" />
+    <ClInclude Include="IBeverage.h" />
+    <ClInclude Include="ICoffeeBase.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{36853EE9-E838-4FDC-8D83-234152254C39}</ProjectGuid>
@@ -114,8 +131,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
