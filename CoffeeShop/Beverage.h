@@ -1,19 +1,19 @@
 #pragma once
-#include "IBeverage.h"
-#include <string>
+#include "ICafe.h"
+#include<string>
+
 using std::string;
 
 class Beverage :
-	public IBeverage
+	public ICafe
 {
 public:
 	Beverage() = default;
-	Beverage(double price, string description);
+	Beverage(double cost, string description);
+	virtual ~Beverage() = default;
 
-	~Beverage() = default;
-
-	double cost() const override;
-	void getDescription() const override;
+	double cost() const;
+	string getDescription() const;
 
 private:
 	double m_price;

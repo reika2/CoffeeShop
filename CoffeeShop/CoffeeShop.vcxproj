@@ -19,21 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Beverage.cpp" />
-    <ClCompile Include="CoffeeBase.cpp" />
-    <ClCompile Include="CoffeeType.cpp" />
-    <ClCompile Include="CondimentDecorator.cpp" />
-    <ClCompile Include="Espresso.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClInclude Include="Beverage.h" />
+    <ClInclude Include="ICafe.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Beverage.h" />
-    <ClInclude Include="CoffeeBase.h" />
-    <ClInclude Include="CoffeeType.h" />
-    <ClInclude Include="CondimentDecorator.h" />
-    <ClInclude Include="Espresso.h" />
-    <ClInclude Include="IBeverage.h" />
-    <ClInclude Include="ICoffeeBase.h" />
+    <ClCompile Include="Beverage.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

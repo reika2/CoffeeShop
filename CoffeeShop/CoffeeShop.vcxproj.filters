@@ -15,46 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Beverage.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CoffeeBase.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CoffeeType.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CondimentDecorator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Espresso.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
+    <ClInclude Include="ICafe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="Beverage.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CoffeeBase.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CoffeeType.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CondimentDecorator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Espresso.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="IBeverage.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ICoffeeBase.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Beverage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
